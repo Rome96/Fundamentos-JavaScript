@@ -12,8 +12,10 @@ var isaac = {
     pais: 'Colombia'
 }
 
-function imprimirNombreEnMayusculas(n){
-    n = n.toUpperCase()
-    console.log(n)
+function imprimirNombreEnMayusculas({nombre}){
+    console.log(nombre.toUpperCase())
 }
-imprimirNombreEnMayusculas(nombre)
+
+imprimirNombreEnMayusculas(turi)
+imprimirNombreEnMayusculas(isaac)
+imprimirNombreEnMayusculas({nombre: 'pepito'})
