@@ -21,3 +21,17 @@ function imprimirNombreEnMayusculas(persona){
 imprimirNombreEnMayusculas(turi)
 imprimirNombreEnMayusculas(isaac)
 imprimirNombreEnMayusculas({nombre: 'pepito'})
+
+
+// Reto de imprimir nombre y edad de un objeto
+var dario = {
+    nombre: 'dario',
+    edad: 22,
+} 
+
+function imprimirNombreYedad({nombre, edad}){
+ console.log(`hola me llamo ${nombre} y tengo ${edad}`)
+}
+
+imprimirNombreYedad(dario)
+// FIN DEL RETO
