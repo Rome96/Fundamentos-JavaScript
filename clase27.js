@@ -17,7 +17,4 @@ function obtenerPersonajes(id){
 }
 
 obtenerPersonajes(2)
-obtenerPersonajes(3)
-obtenerPersonajes(4)
-
 $.get(personURL, opts, onResponse)
